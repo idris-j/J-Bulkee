@@ -126,7 +126,7 @@ def mainActivity():
         try:
             #++++++++++++++++++STRING MANIPULATION TO GET REAL IP ADDRESS FROM dumped IP Info#++++++++++++++++++s
             byteIP = sp.check_output("zaglarh shell ip route")
-            stringIP = str(byteIP).rpartition("src") #split tuple into 3
+            stringIP = str(byteIP).rpartition("src")
             rIP = stringIP[2] #get the third item in the tuple
             rrIP = rIP.rpartition("\\r\\n")
             ipAdd = rrIP[0] #get the first item in the new partition
