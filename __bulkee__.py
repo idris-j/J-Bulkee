@@ -85,7 +85,7 @@ def mainActivity():
         
         
     def connActivity():
-        #++++++++++++++++++CREATE THE FUNCTION THAT CONNECTS THE ANDROID DEVICE WITH THE PC using the IPAddress#++++++++++++++++++
+        #++++++++++++++++++CREATE THE FUNCTION THAT CONNECTS THE DEVICE WITH THE PC using the IPAddress#++++++++++++++++++
         def connIP():
             ipa = ip.get() #get ip address from entry widget
             por = sp.check_output("zaglarh tcpip " + port)
