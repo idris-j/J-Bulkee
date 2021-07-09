@@ -106,7 +106,7 @@ def mainActivity():
             bulkee()
 
 
-        #++++++++++++++++++Destroy login window and create connection page window#++++++++++++++++++
+        #++++++++++++++++++Destroy login window and create connection page#++++++++++++++++++
         login.destroy()
         conn = Tk()
         conn.title("Bulkee@Connection Page")
